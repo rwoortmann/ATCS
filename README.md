@@ -25,7 +25,7 @@ The main folder directory contains:
 
 * **eval.py**
 
-  Usage: `python train.py --encoder model (--BiLSTM_type max) (--loadname ...)`  the same names as train.py
+  Usage: `python train.py --encoder model (--BiLSTM_type max) (--loadname ...)`  refer to train.py commands
   
   
  * **utils.py** contains various functions used in eval and the jupyter notebook.
