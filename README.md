@@ -28,26 +28,14 @@ In SentEval/data/downstream run `./get_transfer_data.bash` for transfer task dat
   using the same commands as train.py
   
   
- * **utils.py**
+ * **utils.py** contains various functions used in eval and the jupyter notebook.
 
-  Contains various functions used in eval and the jupyter notebook.
+* **snli_data.py** for importing SNLI data and creating dataloaders.
 
-* **snli_data.py**
-
-  For importing SNLI data and creating dataloaders.
-
-* **infersent.py**
+* **infersent.py** Torch lighning class used for training and inference
  
-  Torch lighning class used for training and inference
- 
-* **InferSent_demo**
+* **InferSent_demo** Notebook used to show results and demo inference
 
-  Notebook used to show results and demo inference
+* **environement.yml** File containing all packages needed to train and evaluate InferSent
 
-* **environement.yml**
-
-  File containing all packages needed to train and evaluate InferSent
-
-* **report.pdf**
-
-  Pdf summarizing some of the findings and differences between this implementation and that of the original InferSent paper 
+* **report.pdf** Pdf summarizing some of the findings and differences between this implementation and that of the original InferSent paper 
