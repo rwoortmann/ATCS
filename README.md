@@ -21,7 +21,7 @@ The main folder directory contains:
   
   When using BiLSTM type can be: *max* or *simple*
   
-  SNLI and GloVe data should be automatically downloaded and .data and .vector_cache respectively
+  In the first initialization of train.py SNLI and GloVe data should be automatically downloaded to .data and .vector_cache respectively
 
 * **eval.py**
 
