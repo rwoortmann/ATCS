@@ -17,25 +17,25 @@ The main folder directory contains:
 * **train.py**
   Usage: `python train.py --encoder model (--BiLSTM_type type) (--savename ...)` 
   
-  Where `model` can be: `AwE` `LSTM` or `BiLSTM` 
+  Where `model` can be: `AwE` `LSTM` or `BiLSTM`. 
   
-  When using BiLSTM `type` can be: `max` or `simple`
+  When using BiLSTM `type` can be: `max` or `simple`.
   
-  In the first initialization of train.py SNLI and GloVe data should be automatically downloaded to .data and .vector_cache respectively
+  In the first initialization of train.py SNLI and GloVe data should be automatically downloaded to .data and .vector_cache respectively.
 
 * **eval.py**
 
-  Usage: `python train.py --encoder model (--BiLSTM_type max) (--loadname ...)`  please refer to train.py commands
+  Usage: `python train.py --encoder model (--BiLSTM_type max) (--loadname ...)`  please refer to train.py commands.
   
   
  * **utils.py** contains various functions used in eval and the jupyter notebook.
 
 * **snli_data.py** for importing SNLI data and creating dataloaders.
 
-* **infersent.py** Torch lighning class used for training and inference
+* **infersent.py** Torch lighning class used for training and inference.
  
-* **InferSent_demo** Notebook used to show results and demo inference
+* **InferSent_demo** Notebook used to show results and demo inference.
 
-* **environement.yml** File containing all packages needed to train and evaluate InferSent
+* **environement.yml** File containing all packages needed to train and evaluate InferSent.
 
-* **report.pdf** Pdf summarizing some of the findings and differences between this implementation and that of the original InferSent paper 
+* **report.pdf** Pdf summarizing some of the findings and differences between this implementation and that of the original InferSent paper.
