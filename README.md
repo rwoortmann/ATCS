@@ -14,6 +14,8 @@ In SentEval/data/downstream run `./get_transfer_data.bash` for transfer task dat
 
 * train.py
   Usage: `python train.py --encoder model (--BiLSTM_type max)`
+  
   Where model can be: AwE, LSTM or BiLSTM 
+  
   When using BiLSTM type can be: max or simple
   
