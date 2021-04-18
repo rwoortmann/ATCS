@@ -34,8 +34,12 @@ The main folder directory contains:
 
 * **infersent.py** Torch lighning class used for training and inference.
  
-* **InferSent_demo** Notebook used to show results and demo inference.
+* **InferSent_demo.ipynb** Notebook used to show results and demo inference.
 
 * **environement.yml** File containing all packages needed to train and evaluate InferSent.
 
 * **report.pdf** Pdf summarizing some of the findings and differences between this implementation and that of the original InferSent paper.
+
+* **xxx.pkl** Files containing SentEval results for each model, read in InferSent_demo.ipynb.
+
+* **snli_results.json** JSON file containing the valuation and test accuracies after training on SNLI.
