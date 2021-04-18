@@ -17,9 +17,9 @@ The main folder directory contains:
 * **train.py**
   Usage: `python train.py --encoder model (--BiLSTM_type max) (--savename ...)` 
   
-  Where model can be: AwE, LSTM or BiLSTM 
+  Where model can be: *AwE, LSTM* or *BiLSTM* 
   
-  When using BiLSTM type can be: max or simple
+  When using BiLSTM type can be: *max* or *simple*
   
   SNLI and GloVe data should be automatically downloaded and .data and .vector_cache respectively
 
