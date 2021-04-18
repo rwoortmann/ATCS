@@ -49,5 +49,5 @@ In SentEval/data/downstream run `./get_transfer_data.bash` for transfer task dat
   File containing all packages needed to train and evaluate InferSent
 
 * **report.pdf**
-* 
+
   Pdf summarizing some of the findings and differences between this implementation and that of the original InferSent paper 
