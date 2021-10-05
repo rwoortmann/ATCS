@@ -1,0 +1,12 @@
+name: atcs2
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - pytorch
+  - cudatoolkit=10.2
+  - pytorch-lightning
+  - huggingface::transformers
+  - huggingface::datasets
+  - kaggle
+  - scikit-learn

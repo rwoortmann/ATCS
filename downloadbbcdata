@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Before being able to download the data, you must register for a Kaggle account setup this account
+# Follow the steps on this website: https://github.com/Kaggle/kaggle-api#api-credentials
+
+kaggle competitions download -c learn-ai-bbc
+mkdir -p Data
+
+mv learn-ai-bbc.zip Data/
+cd Data/
+unzip learn-ai-bbc.zip
+rm learn-ai-bbc.zip
+
+mkdir -p BBC/Train
+mkdir -p BBC/Test
+
+mv BBC\ News\ Train.csv BBC/Train
+mv BBC\ News\ Test.csv BBC/Test
+mv BBC\ News\ Sample\ Solution.csv BBC/Test

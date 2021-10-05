@@ -1,0 +1,39 @@
+There are 3 configurations for this dataset
+20news-19997.tar.gz - Original 20 Newsgroups data set
+20news-bydate.tar.gz - 20 Newsgroups sorted by date; duplicates and some headers removed (18846 documents)
+20news-18828.tar.gz - 20 Newsgroups; duplicates removed, only "From" and "Subject" headers (18828 documents)
+
+I propose we use the last one
+
+There are 20 categories, that can be further subdivided. 
+The -- show the divisions from the source http://qwone.com/~jason/20Newsgroups/
+The // show further divisions that I think might make sense (but don't think are necessary).
+
+----------------
+comp.graphics
+comp.os.ms-windows.misc
+comp.sys.ibm.pc.hardware
+comp.sys.mac.hardware
+comp.windows.x	
+-------------------
+rec.autos
+rec.motorcycles
+//
+rec.sport.baseball
+rec.sport.hockey	
+-------------------
+sci.crypt
+sci.electronics
+//
+sci.med
+sci.space
+-------------------
+misc.forsale	
+-------------------
+talk.politics.misc
+talk.politics.guns
+talk.politics.mideast	
+-------------------
+talk.religion.misc
+alt.atheism
+soc.religion.christian
